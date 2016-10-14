@@ -45,6 +45,40 @@ class TestFilterFunctions(unittest.TestCase):
     def test_only_words_over_10_chars(self):
         self.assertTrue(all(filter(lambda x: len(x) > 9, ten_letter_words)))
 
+#
+# def positives(num):
+#     return num >= 0
+#
+#
+# def no_vowels(letter):
+#     if letter not in 'aeiou':
+#         return True
+#
+#
+# def ten_letters(words):
+#     return True if len(words) > 9 else False
+#
+#
+# def get_treehouse(words):
+#     return True if words.lower() == 'treehouse' else False
+#
+#
+# def divided_by_three(num):
+#     return True if int(num) % 3 == 0 else False
+
+positive_numbers = filter(lambda num: num if num >= 0 else False, nums)
+
+non_zero_numbers = filter(None, nums)
+
+no_vowel_word = filter(lambda letter: True if letter not in 'aeiou' else False, state)
+
+no_falsey = filter(None, values)
+
+ten_letter_words = filter(lambda words: True if len(words) > 9 else False, word_list())
+
+only_treehouse = filter(lambda words: True if words.lower() == 'treehouse' else False, strings)
+
+modulo_three_nums = filter(lambda num: num % 3 == 0, number_stream)
 
 
 if __name__ == '__main__':

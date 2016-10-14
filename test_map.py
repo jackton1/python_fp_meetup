@@ -34,10 +34,26 @@ class TestMapFunctions(unittest.TestCase):
         self.assertTrue(all([isinstance(x, str) for x in num_strings]))
 
     def test_format_strings(self):
-        for index, statement in enumerate(statements):
+        for index, statement in enumerate(statements, start=0):
             self.assertEqual(statement, format_string.format(**dicts[index]))
 
 
+# def double(num):
+#     return num * 2
+#
+#
+# def half(num):
+#     return float(num)/2
+#
+#
+# def formatter(words):
+#     return format_string.format(**words)
+
+double_nums = map(lambda num: num * 2, nums)
+half_nums = map(lambda num: float(num)/2, nums)
+num_strings = map(str, nums)
+statements = map(lambda words: format_string.format(**words), dicts)
+timezones = map(pytz.timezone, timezone_strings)
 
 if __name__ == '__main__':
     unittest.main()

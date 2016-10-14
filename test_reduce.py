@@ -31,7 +31,9 @@ def longest(string1, string2):
     else:
         return string2
 
-
+add_nums = reduce(add_two_nums, nums)
+multiply_nums = reduce(multiply_two_nums, nums)
+longest_string = reduce(longest, states)
 
 if __name__ == '__main__':
     unittest.main()
