@@ -34,7 +34,7 @@ class TestMapFunctions(unittest.TestCase):
         self.assertTrue(all([isinstance(x, str) for x in num_strings]))
 
     def test_format_strings(self):
-        for index, statement in enumerate(statements, start=0):
+        for index, statement in enumerate(statements):
             self.assertEqual(statement, format_string.format(**dicts[index]))
 
 
