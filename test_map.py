@@ -51,7 +51,7 @@ class TestMapFunctions(unittest.TestCase):
 
 double_nums = map(lambda num: num * 2, nums)
 half_nums = map(lambda num: float(num)/2, nums)
-num_strings = map(str, nums)
+num_strings =  map(str, nums)
 statements = map(lambda words: format_string.format(**words), dicts)
 timezones = map(pytz.timezone, timezone_strings)
 

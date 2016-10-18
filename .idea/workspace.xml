@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d46878ab-e5c3-4e8d-97b1-e205661146f7" name="Default" comment="" />
+    <list default="true" id="d46878ab-e5c3-4e8d-97b1-e205661146f7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_map.py" afterPath="$PROJECT_DIR$/test_map.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_reduce.py" afterPath="$PROJECT_DIR$/test_reduce.py" />
+    </list>
     <ignored path="Functional_Python.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -20,7 +24,7 @@
     <SUITE FILE_PATH="coverage/Functional_Python$Unittests_in_test_filter.coverage" NAME="Unittests in test_filter Coverage Results" MODIFIED="1476487065175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Functional_Python$Unittest_TestMultiplyTwoNums_test_multiply_two_nums.coverage" NAME="Unittest TestMultiplyTwoNums.test_multiply_two_nums Coverage Results" MODIFIED="1476486244146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Functional_Python$Unittests_in_test_reduce.coverage" NAME="Unittests in test_reduce Coverage Results" MODIFIED="1476487947664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Functional_Python$Unittests_in_test_map.coverage" NAME="Unittests in test_map Coverage Results" MODIFIED="1476487634909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Functional_Python$Unittests_in_test_map.coverage" NAME="Unittests in test_map Coverage Results" MODIFIED="1476803212277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_filter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_filter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="276">
               <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -57,8 +61,8 @@
       <file leaf-file-name="test_map.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+            <state relative-caret-position="901">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -66,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_reduce.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_reduce.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_reduce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -100,8 +104,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1740" />
-    <option name="y" value="180" />
+    <option name="x" value="-1766" />
+    <option name="y" value="160" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
   </component>
@@ -165,7 +169,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_reduce">
+  <component name="RunManager" selected="Python tests.Unittests in test_map">
     <configuration default="false" name="Unittest TestMultiplyTwoNums.test_equal_nums" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -492,8 +496,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_reduce" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_map" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_map" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_reduce" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_filter" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_multiply_two_nums" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestMultiplyTwoNums.test_equal_nums" />
@@ -522,15 +526,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_filter - 2016.10.14 at 19h 15m 42s.xml">
-      <configuration name="Unittests in test_filter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_filter - 2016.10.14 at 19h 15m 52s.xml">
-      <configuration name="Unittests in test_filter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_filter - 2016.10.14 at 19h 16m 40s.xml">
-      <configuration name="Unittests in test_filter" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_filter - 2016.10.14 at 19h 17m 45s.xml">
       <configuration name="Unittests in test_filter" configurationId="tests" />
     </history-entry>
@@ -544,6 +539,15 @@
       <configuration name="Unittests in test_map" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_map - 2016.10.14 at 19h 27m 15s.xml">
+      <configuration name="Unittests in test_map" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_map - 2016.10.18 at 11h 06m 23s.xml">
+      <configuration name="Unittests in test_map" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_map - 2016.10.18 at 11h 06m 40s.xml">
+      <configuration name="Unittests in test_map" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_map - 2016.10.18 at 11h 06m 52s.xml">
       <configuration name="Unittests in test_map" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_reduce - 2016.10.14 at 19h 31m 47s.xml">
@@ -563,10 +567,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1740" y="180" width="1920" height="977" extended-state="1" />
-    <editor active="false" />
+    <frame x="-1766" y="160" width="1920" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -575,7 +579,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -606,14 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_multiply_two_nums.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -624,18 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_reduce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="901">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -644,11 +630,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="276">
           <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1476487030000" expanded="true" signature="1379:1756" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

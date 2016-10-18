@@ -16,21 +16,6 @@ class TestReduceFunctions(unittest.TestCase):
     def test_longest_string(self):
         self.assertEqual(longest_string, 'California')
 
-#
-# def add_two_nums(x, y):
-#     return x + y
-#
-#
-# def multiply_two_nums(x, y):
-#     return x * y
-#
-#
-# def longest(string1, string2):
-#     if len(string1) > len(string2):
-#         return string1
-#     else:
-#         return string2
-
 add_nums = reduce(lambda x, y: x + y, nums)
 multiply_nums = reduce(lambda x, y: x * y, nums)
 longest_string = reduce(lambda x, y: x if len(x) > len(y) else y, states)
